@@ -28,8 +28,11 @@ class Home extends Component{
   }
   handleMin=()=>{
     this.setState({
-      num:this.state.num-1
+        num:this.state.num-1
     })
+    if(this.state.num===1){
+      return this.state.num=1
+    }
   }
   render(){
     const{num}=this.state
