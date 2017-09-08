@@ -1,6 +1,7 @@
 import React ,{Component} from "react"
 import CarouselFigure from "../CarouselFigure/CarouselFigure"
 import "./home.css"
+import Countdown from "../Countdown/Countdown"
 
 
 class Home extends Component{
@@ -26,14 +27,16 @@ class Home extends Component{
       num:this.state.num+1
     })
   }
+
   handleMin=()=>{
-    this.setState({
-        num:this.state.num-1
-    })
-    if(this.state.num===1){
-      return this.state.num=1
+    if(this.state.num>1){
+      this.setState({
+          num:this.state.num-1
+      })
     }
   }
+
+
   render(){
     const{num}=this.state
     const style=this.state.style.map((t,i)=>(
@@ -56,7 +59,7 @@ class Home extends Component{
 						<span>据预售结束</span>
 						<span>相关专区</span>
 						</li>
-						<li><span className="time">24:3:34:2</span><img src={require("../images/mainleft_09.png")} alt="" /></li>
+						<li><span className="time">< Countdown /></span><img src={require("../images/mainleft_09.png")} alt="" /></li>
 						<li>
 						<span>分享</span>
 						<span className="sha"><a href="http"><img className="iconfont share" src={require("../icon/blog.svg")} alt=""/></a></span>
