@@ -1,0 +1,84 @@
+.main li:last-child{
+	line-height: 60px;
+	border-top: 2px solid #2b2e33;
+	border-bottom: none;
+	padding-bottom: 80px;
+}
+
+
+
+.main li:last-child .boleft{
+	float: left;
+	margin-top: 53px;
+	background-color: #2b2e33;
+	width: 880px;
+	color: #fff;
+}
+.main li:last-child .boleft input{
+	margin-top: 23px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.main li:last-child .boleft>a{
+	float: left;
+}
+.main li:last-child .boleft .allc{
+	float: left;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.main li:last-child .boleft .dele{
+	margin-top: 20px;
+	line-height: 16px;
+	display: block;
+	margin-left: 5px;
+	font-size: 14px;
+	border-right: 1px solid #6f7277;
+	color: #fff;
+	text-decoration: none;
+	width: 146px;
+}
+.main li:last-child .boleft .state{
+	margin-left: 20px;
+
+}
+.main li:last-child .boleft .state span {
+	color: #c7ae13;
+
+}
+.main li:last-child .boleft .coun{
+	float: right;
+	margin-right: 20px;
+	color: #fbd800;
+	margin-left: 10px;
+	font-size: 28px;
+	line-height: 60px;
+	width: 130px;
+}
+.main li:last-child .boleft  div{
+	float: right;
+	line-height: 18px;
+	padding-top: 14px;
+	font-size: 13px;
+}
+.main li:last-child .boleft  div span{
+		margin-left: 31px;
+}
+.main li:last-child button{
+	margin-top: 50px;
+	float:right;
+	line-height: 60px;
+	width: 220px;
+	background-color: #fdd900;
+	border: none;
+	font-size: 24px;
+	/*box-sizing: border-box;*/
+	/*color: #7a6c2b;*/
+	outline:none;
+}
+.main li:last-child button:hover{
+	background-color: #2b2e33;
+	color:#fdd803;
+	/*color:#fff;*/
+}

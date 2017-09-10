@@ -1,0 +1,88 @@
+.down{
+	width: 1100px;
+	margin: 0 auto;
+}
+.down h4{
+
+	margin-top: 49px;
+	line-height: 76px;
+	margin-right: 9px;
+	font-size: 18px;
+	color: #2d2d35;
+}
+.other-need{
+  display: flex;
+  /*justify-content: center;*/
+  /*flex-wrap:nowrap;*/
+}
+.down  .line-yellow{
+
+	display: block;
+	width: 978px;
+	height: 2px;
+	background-image: url("../images/arrcar-line_11.jpg");
+	background-repeat: repeat-x;
+	margin-top: 86px;
+}
+/*商品完*/
+
+
+/*down 开始*/
+.other{
+	/*display: block;*/
+
+}
+.other li{
+	width: 195px;
+	border:1px solid #d1d7e3;
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	box-sizing: border-box;
+	margin-bottom: 122px;
+}
+.other li:first-child{
+	margin-left: 0px;
+}
+.other .othimg{
+	display: block;
+	margin-bottom: 7px;
+}
+.other .title2{
+	display: block;
+	line-height: 18px;
+	margin-left: 11px;
+	width: 137px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #272727;
+
+}
+.other .title2:hover{
+	text-decoration: underline;
+	color: hotpink;
+}
+.other .price{
+	display: block;
+	float: left;
+	padding-left: 11px;
+	color: red;
+	font-size: 19px;
+	width: 77px;
+	margin-top: 44px;
+}
+.other .addbag{
+	float: right;
+	margin-top: 44px;
+	margin-right: 10px;
+	display: block;
+	width: 66px;
+	line-height: 25px;
+	/*padding:2px 24px;*/
+	border: 2px solid #ffd801;
+	margin-bottom: 10px;
+}
+.other .addbag img{
+	margin-top: 2px;
+	margin-left: 24px;
+}

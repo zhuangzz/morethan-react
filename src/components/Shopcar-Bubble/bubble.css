@@ -1,0 +1,85 @@
+/*气泡*/
+/*气泡*/
+.main li{
+	position: relative;
+}
+.main .qipao{
+	position: absolute;
+	background-image: url("../images/shopcar-pao.png");
+	background-size: cover;
+	width: 255px;
+	height: 55px;
+	right: 10px;
+	top: 88px;
+
+
+}
+.main .qipao a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 14px;
+	line-height: 36px;
+
+}
+.main .qipao a:first-child{
+	margin-left: 4px;
+	width: 100px;
+	background-color: red;
+}
+
+.main .qipao a:last-child{
+	width: 146px;
+	background-color: #2b2e33;
+}
+
+
+
+.main li{
+	position: relative;
+}
+.main .paopao{
+	position: absolute;
+	background-image: url("../images/shopcar-pao.png");
+	background-size: cover;
+	width: 255px;
+	height: 55px;
+	right: 10px;
+	top: 88px;
+
+}
+.main .paopao a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 14px;
+	line-height: 36px;
+
+}
+.main .paopao a:first-child{
+	margin-left: 4px;
+	width: 100px;
+	background-color: red;
+}
+
+.main .paopao a:last-child{
+	width: 146px;
+	background-color: #2b2e33;
+}
+.main li:last-child .paopao{
+	background-image: url("../images/shopcar-paodown.png");
+	top: 2px;
+	left: 58px;
+}
+.main li:last-child .paopao a{
+	margin-top: 6px;
+}
+/*气泡完*/

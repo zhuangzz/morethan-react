@@ -1,0 +1,109 @@
+.shopcar{
+  width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+
+/*main开始*/
+.main{
+	list-style: none;
+	width: 1100px;
+	margin: 0 auto;
+}
+.main li{
+	border-bottom: 1px solid #d1d7e3;
+}
+.main li:first-child{
+	line-height: 47px;
+	font-size: 14px;
+	color: #45464a;
+	border-bottom: 2px solid #2b2e33;
+}
+.main li:first-child span:nth-child(2){
+	margin-left: 9px;
+}
+.main li:first-child span:nth-child(3){
+	margin-left: 15px;
+}
+.main li:first-child span:nth-child(4){
+	margin-left: 480px;
+}
+.main li:first-child span:nth-child(5){
+	margin-left: 144px;
+}
+.main li:first-child span:nth-child(6){
+	margin-left: 136px;
+}
+.main li:first-child span:nth-child(7){
+	margin-left: 60px;
+}
+
+.main li .choose{
+	float: left;
+	margin: 55px 20px;
+}
+.main li .goodsimg{
+
+	display: block;
+	float: left;
+	margin: 20px 10px 20px 28px;
+}
+.main .title{
+	float: left;
+	line-height: 18px;
+	font-size: 14px;
+	color: #c7c8ca;
+}
+.main .title span{
+	display: block;
+	width: 240px;
+	margin-top: 25px;
+	color: #2a2d34;
+	margin-bottom: 16px;
+}
+.main .price{
+	float: left;
+	margin-left: 160px;
+	margin-top: 61px;
+	font-size: 12px;
+	color: #6b6b6b;
+	margin-right: 66px;
+}
+.main .num{
+	float: left;
+	width: 182px;
+	margin-top: 47px;
+	box-sizing: border-box;
+	color: #2c2d32;
+}
+.main .num span{
+	float: left;
+	width: 102px;
+	line-height: 40px;
+	text-align: center;
+}
+.main .num a{
+	float: left;
+	display: block;
+	width: 38px;
+	line-height: 38px;
+	text-align: center;
+	border: 1px solid #2c2d32;
+	text-decoration: none;
+	color: #2c2d32;
+
+}
+.main .subtotal{
+	float: left;
+	display: block;
+	margin-left: 55px;
+	font-size-adjust: 12px;
+	color: red;
+	margin-top: 61px;
+}
+.main .del{
+	float:right;
+	margin-top: 64px;
+	margin-right: 45px;
+}

@@ -1,4 +1,5 @@
 import React ,{Component} from "react"
+import Addcardown from "../Addcardown/Addcardown"
 import "./addcar.css"
 
 class Addcar extends Component {
@@ -12,9 +13,9 @@ class Addcar extends Component {
       			</div>
       			<img src={require("../images/addcar-up_03.jpg")} alt="" />
       			<div className="goods clearfix">
-      				<a className="img" href="#"><img src={require("../images/addcar-thing_03.jpg")} alt="" /></a>
+      				<a className="img" href="http"><img src={require("../images/addcar-thing_03.jpg")} alt="" /></a>
       				<span className="title">
-      					<a href="#" >
+      					<a href="http" >
       					龙之谷六周年限定大礼包大Boss冰龙款男士T恤
       				  </a>
       				</span>
@@ -23,64 +24,12 @@ class Addcar extends Component {
       					<p>尺码：XL</p>
       					<p>数量：x1</p>
       				</div>
-      				<a href="#" className="gocount">去购物车结算</a>
-      				<a href="#" className="goback">返回</a>
+      				<a href="http" className="gocount">去购物车结算</a>
+      				<a href="http" className="goback">返回</a>
 
       			</div>
       		</div>
-      		<div className="down">
-      			<div className="other-need clearfix">
-      				<h4> 您可能还需要</h4>
-      				<span className="line"></span>
-      			</div>
-      			<ul className="other clearfix">
-      				<li className="clearfix">
-      					<a className="othimg" href="#"><img src={require("../images/addcar-other_11.jpg")} alt="" /></a>
-      					<a className="title2" href="#">龙之谷六周年限定礼包大boss冰龙款...</a>
-
-      					<span className="price">¥88.00</span>
-      					<a className="addbag" href="#">
-      					  <img src={require("../images/addcar-bag_19.jpg")} alt="" />
-      					</a>
-      				</li>
-      				<li className="clearfix">
-      					<a className="othimg" href="#"><img src={require("../images/addcar-other_11.jpg")} alt="" /></a>
-      					<a className="title2" href="#">龙之谷六周年限定礼包大boss冰龙款...</a>
-
-      					<span className="price">¥88.00</span>
-      					<a className="addbag" href="#">
-      					  <img src={require("../images/addcar-bag_19.jpg")} alt="" />
-      					</a>
-      				</li>
-      				<li className="clearfix">
-      					<a className="othimg" href="#"><img src={require("../images/addcar-other_11.jpg")} alt="" /></a>
-      					<a className="title2" href="#">龙之谷六周年限定礼包大boss冰龙款...</a>
-
-      					<span className="price">¥88.00</span>
-      					<a className="addbag" href="#">
-      					  <img src={require("../images/addcar-bag_19.jpg")} alt="" />
-      					</a>
-      				</li>
-      				<li className="clearfix">
-      					<a className="othimg" href="#"><img src={require("../images/addcar-other_11.jpg")} alt="" /></a>
-      					<a className="title2" href="#">龙之谷六周年限定礼包大boss冰龙款...</a>
-
-      					<span className="price">¥88.00</span>
-      					<a className="addbag" href="#">
-      					  <img src={require("../images/addcar-bag_19.jpg")} alt="" />
-      					</a>
-      				</li>
-      				<li className="clearfix">
-      					<a className="othimg" href="#"><img src={require("../images/addcar-other_11.jpg")} alt="" /></a>
-      					<a className="title2" href="#">龙之谷六周年限定礼包大boss冰龙款...</a>
-
-      					<span className="price">¥88.00</span>
-      					<a className="addbag" href="#">
-      					  <img src={require("../images/addcar-bag_19.jpg")} alt="" />
-      					</a>
-      				</li>
-      			</ul>
-      		</div>
+          <Addcardown />
       	</div>
       </div>
     )
