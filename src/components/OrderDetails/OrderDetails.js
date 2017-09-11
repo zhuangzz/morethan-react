@@ -24,7 +24,7 @@ class OrderDetails extends Component{
     ]
   }
   render(){
-    const listid=this.state.address.map=((item,i)=>(
+    const listid=this.state.address.map((item,i)=>(
     <div  key={i}>
     <div className="main clearfix">
         <div className="maino">
