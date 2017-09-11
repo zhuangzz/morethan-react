@@ -25,14 +25,10 @@ class OrderDetails extends Component{
   }
   render(){
     const listid=this.state.address.map((item,i)=>(
-    <div  key={i}>
-    <div className="main clearfix">
-        <div className="maino">
-          <h3>收货地址</h3>
-          <h4><a href="#">+</a>新增地址</h4>
-    </div>
-    <ul>
-      <li>this.setState({item.name})</li>
+
+
+    <ul key={i}>
+      <li>{item.name}</li>
       <li>{item.id}
        <a href="#">删除</a>
        <a href="#">编辑</a>
@@ -44,14 +40,23 @@ class OrderDetails extends Component{
       </li>
       <li>{item.num}</li>
     </ul>
-  </div>
-  <a href="#">显示更多</a>
-  </div>
+
 ))
     return(
       <div className="orderdetails">
         <OrderUp />
-        {listid}
+
+
+        <div className="main clearfix">
+          <div className="maino">
+              <h3>收货地址</h3>
+              <h4><a href="#">+</a>新增地址</h4>
+          </div>
+          {listid}
+          <a className="more-more" href="#">显示更多</a>
+        </div>
+
+
       </div>
     )
   }

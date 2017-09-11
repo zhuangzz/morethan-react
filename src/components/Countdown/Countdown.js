@@ -54,8 +54,14 @@ class Countdown extends Component{
   }
 
 
+
+
+  componentWillUnmount=() => {
+    window.clearInterval(this.timer)
+  }
+
   componentDidMount = () => {
-    window.setInterval(this.tick, 1000)
+    this.timer=window.setInterval(this.tick, 1000)
   }
 
   render(){

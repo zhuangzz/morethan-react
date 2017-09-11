@@ -7,26 +7,30 @@
 
 
 .main{
-  width: 1100px;
+  width: 1200px;
   margin:0 auto;
   overflow: hidden;
   position: relative;
+  background-color: #fff;
 }
-.main .maino{
+ .maino{
+   width: 1100px;
+   margin: 0 auto;
   padding-bottom: 35px;
+  background-color: #fff;
   border-bottom: 2px solid #000
 }
-.main .maino h3{
+ .maino h3{
   float:left;
   font-weight: bold;
   font-size: 18px;
 }
-.main .maino h4{
+.maino h4{
   float:right;
   font-weight: bold;
   font-size:18px;
 }
-.main .maino h4 a{
+ .maino h4 a{
   display: block;
   text-decoration: none;
   float:left;
@@ -39,6 +43,8 @@
 
 }
 .main ul{
+  width: 1100px;
+  margin: 0 auto;
   font-size: 14px;
   list-style: none;
   padding-top: 20px;
@@ -96,7 +102,7 @@
 
 
 
-.wrap>a{
+.more-more{
   width: 1100px;
   line-height: 60px;
   display: block;
@@ -111,6 +117,19 @@
   margin: 0 auto;
   margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mainmin{
   width: 1100px;
   margin:0 auto;
