@@ -7,6 +7,17 @@ import "./header.css"
 
 class Header extends Component{
   render(){
+    const { showLogin , showLoginName,logout }=this.props
+    const loginName=(
+      <a className="back">
+        <span>{showLoginName}|</span>
+        <span onClick={logout}>退出</span>
+      </a>
+
+    )
+    const loginFirst=(
+      <span onClick={ showLogin }>登录</span>
+    )
     return(
       <div className="header">
         <div className="header-con">
@@ -17,7 +28,9 @@ class Header extends Component{
             <a href="http" ><img className="bag" src={Shopbag} alt="" /></a>
           </div>
 
-          <span>登录/注册</span>
+          {showLoginName? loginName : loginFirst}
+
+
         </div>
       </div>
 

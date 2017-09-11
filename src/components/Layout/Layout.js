@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer"
 import "./layout.css"
 
 
+
 class Layout extends Component{
   render(){
     return(

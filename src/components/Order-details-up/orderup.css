@@ -1,0 +1,64 @@
+.up-con{
+  width: 1200px;
+  height: 144px;
+  background-color: #fdd900;
+  overflow: hidden;
+  margin: 0 auto
+}
+
+.up-con .left{
+  display: block;
+  float: left;
+  width: 5px;
+  /*background-image: url("../images/shopcar-left_03.jpg");
+  background-repeat: repeat-y;*/
+  height: 60px;
+  margin-top: 24px;
+  margin-left: 50px;
+  margin-bottom: 17px;
+  border-left:5px solid #000;
+}
+.up-con>.up-u{
+  float: left;
+  overflow:hidden;
+  background-color: #fdd900;
+}
+.up-con>.up-u .car{
+  float:left;
+  font-size: 30px;
+  line-height: 60px;
+  margin-top: 24px;
+  margin-left: 20px;
+  width: 720px;
+}
+.up-con>.up-u .car>span{
+  font-size: 22px;
+}
+.up-con>.up-u .car>span>span{
+  color: red;
+}
+.up-con>ul{
+  float: right;
+  list-style: none;
+}
+.up-con>ul>li{
+  margin-top: 38px;
+  float: left;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.up-con>ul>li:nth-child(1){
+  width: 55px;
+
+}
+.up-con>ul>li:nth-child(2){
+  width: 72px;
+  border-bottom: 5px solid #000;
+  font-weight: bold;
+}
+.up-con>ul>li:nth-child(3){
+  width: 126px;
+  margin-right: 50px;
+}

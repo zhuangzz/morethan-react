@@ -1,0 +1,131 @@
+/*弹窗*/
+
+
+
+		body{
+			position: relative;
+			z-index: 1;
+		}
+		.wrap{
+			z-index: 3;
+		}
+		@keyframes fadeIn{
+			0%{opacity:0;}
+			100%{opacity:100;}
+		}
+		.wraps{
+			z-index: 5;
+			width: 100%;
+			height: 100vh;
+			/*background-color: #ccc;*/
+			position: fixed;
+			top: 0;
+			left: 0;
+			/*display: none;*/
+			animation: fadeIn 1s linear;
+			background-color: rgba(204,204,204,0.3);
+		}
+		.box{
+			position: fixed;
+			top: 60px;
+			left: 50%;
+			margin-left: -210px;
+
+			width:420px;
+			height: 607px;
+			/*background-color: #fff;*/
+			background-color: rgba(204,204,204,0.3);
+			transition: all 0.8s;
+
+		}
+		.box-up{
+			background-color: #fff;
+			margin-bottom: 3px;
+		}
+		.box-up .logos{
+
+			margin:14px 107px 50px  107px;
+		}
+		.box-up form>input{
+			width: 322px;
+			line-height: 42px;
+			margin-bottom: 20px;
+			outline: none;
+			font-size: 20px;
+			text-indent:5px;
+		}
+/*		.box-up form .number{
+			margin-bottom: 20px;
+		}*/
+		.box-up form>label{
+			float: left;
+			display: block;
+		}
+		.box-up form>label>img{
+			margin-left: 20px;
+			padding:10px 15px;
+			border: 1px solid #babec9;
+
+		}
+		.box-up form>div input{
+			width: 233px;
+			line-height: 42px;
+			margin-left: 20px;
+			margin-right: 4px;
+			outline: none;
+			font-size: 20px;
+			text-indent:5px;
+
+		}
+		.box-up form>div a{
+			float: right;
+			margin-right: 20px;
+			margin-bottom: 55px;
+		}
+		.box-up form .lo{
+			display: block;
+			font-size: 24px;
+			text-align: center;
+			line-height: 45px;
+			width: 380px;
+			color:#000100;
+			background-color: #fef400;
+			margin-left: 20px;
+			margin-bottom: 40px;
+		}
+		.box-up>div{
+			line-height: 55px;
+		}
+		.box-up>div a{
+			margin-left: 22px;
+			text-decoration: none;
+			color: #000100;
+			font-size: 14px;
+		}
+		.box-up>div a:last-child{
+			margin-left: 273px;
+		}
+		.box .close{
+			float:right;
+			margin-right: 20px;
+			margin-top: 20px;
+		}
+		.box-down{
+			background-color: #fff;
+		}
+		.box-down a{
+			display: block;
+			float: left;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.box-down a:nth-child(1){
+			margin-left: 60px;
+		}
+		.box-down a:nth-child(2){
+			margin-left: 109px;
+		}
+		.box-down a:nth-child(3){
+			margin-left:105px;
+		}
+		/*弹窗完*/
