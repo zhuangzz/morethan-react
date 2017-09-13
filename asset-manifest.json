@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.4cce8452.css",
-  "main.css.map": "static/css/main.4cce8452.css.map",
-  "main.js": "static/js/main.9eae33a9.js",
-  "main.js.map": "static/js/main.9eae33a9.js.map",
+  "main.css": "static/css/main.0cd58b0a.css",
+  "main.css.map": "static/css/main.0cd58b0a.css.map",
+  "main.js": "static/js/main.f8f4d20e.js",
+  "main.js.map": "static/js/main.f8f4d20e.js.map",
   "static/media/aboutus.svg": "static/media/aboutus.50ac3d30.svg",
+  "static/media/addcar-other_11.jpg": "static/media/addcar-other_11.800b92f2.jpg",
+  "static/media/addcar-up_03.jpg": "static/media/addcar-up_03.64600d69.jpg",
   "static/media/banner1_18.jpg": "static/media/banner1_18.e4f4b088.jpg",
   "static/media/banner2_20.jpg": "static/media/banner2_20.b85af368.jpg",
   "static/media/banner3_22.jpg": "static/media/banner3_22.dd27e498.jpg",
@@ -23,6 +25,8 @@
   "static/media/question.svg": "static/media/question.bd628510.svg",
   "static/media/search.svg": "static/media/search.fd183ac8.svg",
   "static/media/shopbag.svg": "static/media/shopbag.461cdd29.svg",
+  "static/media/shopcar-bg_07.jpg": "static/media/shopcar-bg_07.d86433dd.jpg",
+  "static/media/shouyintai3_03.jpg": "static/media/shouyintai3_03.18fa69b6.jpg",
   "static/media/slick.eot": "static/media/slick.ced611da.eot",
   "static/media/slick.svg": "static/media/slick.f97e3bbf.svg",
   "static/media/slick.ttf": "static/media/slick.d41f55a7.ttf",
@@ -30,5 +34,6 @@
   "static/media/taobao.svg": "static/media/taobao.67df2795.svg",
   "static/media/wechat-oc.svg": "static/media/wechat-oc.7efcf5a6.svg",
   "static/media/wechatsmall.svg": "static/media/wechatsmall.f1549ce2.svg",
-  "static/media/yu_17.jpg": "static/media/yu_17.733177ef.jpg"
+  "static/media/yu_17.jpg": "static/media/yu_17.733177ef.jpg",
+  "static/media/yushou_19.jpg": "static/media/yushou_19.4c387b29.jpg"
 }
