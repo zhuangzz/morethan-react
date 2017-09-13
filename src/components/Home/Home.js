@@ -2,6 +2,8 @@ import React ,{Component} from "react"
 import CarouselFigure from "../CarouselFigure/CarouselFigure"
 import "./home.css"
 import Countdown from "../Countdown/Countdown"
+import {Link } from "react-router-dom"
+
 
 
 class Home extends Component{
@@ -48,7 +50,7 @@ class Home extends Component{
 
 
     return(
-      <div className="home">
+      <div className="home-home">
         <CarouselFigure />
         <div className="main clearfix">
 			  <div className="mainup"></div>
@@ -85,7 +87,7 @@ class Home extends Component{
                      	<li className="twofi clearfix"><span>数量</span><a  className="jian" onClick={this.handleMin}>-</a><span className="xin">{num}</span><a  className="add" onClick={this.handleAdd}>+</a></li>
                      	<li className="twos"><span>注：</span>商品将于<span>2016/10/5</span>统一发货</li>
                      </ul>
-				<a href="http">立即预定</a>
+				<Link to="/addcar" className="order-now555">立即预定</Link>
 			</div>
 			<div className="maindown"><img src={require("../images/neirong_07.jpg")} alt="" /></div>
 		</div>

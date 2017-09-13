@@ -1,5 +1,9 @@
 
-
+.orderdetails{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
 
 
 
@@ -42,30 +46,37 @@
   margin-right: 10px;
 
 }
-.main ul{
+.main .goods-id{
   width: 1100px;
   margin: 0 auto;
   font-size: 14px;
   list-style: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #cac5c5;
   box-sizing: border-box;
+
 }
-.main ul:hover{
+
+.main .goods-id:hover{
   border:3px solid #fcd901;
 }
-.main ul li{
+.main .goods-id li{
   margin-left: 20px;
   position: relative;
+  border-bottom: none;
+  border-top: none;
+  padding-bottom: 0px;
+  line-height: 20px;
 }
-.main>ul>li>a{
+.main .goods-id>li>a{
   text-decoration: none;
   color: #000;
   margin-left: 50px;
   float:right;
 }
-.main>ul>li>.qipao{
+
+.main .goods-id>li>.qipao{
   position: absolute;
   background-image: url("../images/shopcar-pao.png");
   background-size:100px 200px;
@@ -75,7 +86,7 @@
   right: -23px;
   top: 23px;
 }
-.main>ul>li>.qipao a{
+.main .goods-id>li>.qipao a{
   float: left;
   display: block;
   text-decoration: none;
@@ -87,13 +98,13 @@
   line-height: 36px;
 
 }
-.main>ul>li>.qipao a:first-child{
+.main .goods-id>li>.qipao a:first-child{
   margin-left: 4px;
   width: 100px;
   background-color: red;
 }
 
-.main>ul>li>.qipao a:last-child{
+.main .goods-id>li>.qipao a:last-child{
   width: 146px;
   background-color: #2b2e33;
 }
@@ -117,161 +128,3 @@
   margin: 0 auto;
   margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mainmin{
-  width: 1100px;
-  margin:0 auto;
-}
-.mainmino h3{
-  float:left;
-  display: block;
-  line-height: 37px;
-  font-weight: bold;
-}
-.mainmino a{
-  display: block;
-  float:right;
-  text-decoration: none;
-  color:#000;
-  line-height: 37px;
-}
-.mainmin ul{
-  list-style: none;
-  width: 1100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top:2px solid #000;
-}
-.mainmin ul li{
-  /*line-height: 30px*/
-}
-.mainmin .mainmint img{
-  height: 66px;
-}
-.mainmin .mainmint li img:nth-child(2){
-  margin-left: 20px;
-
-}
-.mainmin .mainmint li:nth-child(2){
-  margin-left: 20px;
-  font-weight: bold;
-  line-height: 66px
-}
-.mainmin .mainmins li:nth-child(2){
-  margin-left: 20px;
-  font-weight: bold;
-  line-height: 66px
-}
-.mainmin .mainmint li:nth-child(3){
-  margin-left: 200px;
-  font-size: 12px;
-  line-height: 66px
-}
-.mainmin .mainmins li:nth-child(3){
-  margin-left: 264px;
-  font-size: 12px;
-  line-height: 66px
-}
-.mainmin .mainmint li:nth-child(4){
-  margin-left: 30px;
-  font-size: 12px;
-  line-height: 66px
-}
-.mainmin .mainmins li:nth-child(4){
-  margin-left: 30px;
-  font-size: 12px;
-  line-height: 66px
-}
-.mainmin .mainmint li:nth-child(5){
-  margin-left: 110px;
-  line-height: 66px
-}
-.mainmin .mainmins li:nth-child(5){
-  margin-left: 110px;
-  line-height: 66px
-}
-.mainmin .mainmint li:nth-child(6){
-  margin-left: 60px;
-  line-height: 66px
-}
-.mainmin .mainmins li:nth-child(6){
-  margin-left: 60px;
-  line-height: 66px
-}
-.mainmin ul li{
-  float:left;
-}
-.mainmin .mainminf{
-  padding-top: 20px;
-  margin-bottom: 20px
-
-}
-.mainmin .mainminf li{
-  float:left;
-  position: relative;
-}
-.mainmin .mainminf li h3{
-  float:left;
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 20px;
-  line-height: 40px
-}
-.mainmin .mainminf .three{
-  width: 133px;
-  height: 39px;
-  position: absolute;
-  left:91px;
-  border: 3px solid #fdd900;
-/*  display: none*/
-}
-.mainmin .mainminf li span{
-  float:left;
-  margin-right: 45px;
-  width: 134px;
-  line-height: 40px;
-  text-align: center;
-  border:2px solid #a8a2a2;
-}
-.mainmin .mainminf li:nth-child(3) span{
-
- margin-right: 10px;
- width: 100px;
-}
-.mainmin .mainminf input{
-  width: 168px;
-  line-height: 40px;
-  margin-right: 5px;
-  color: #aca7a7;
-  text-align: center
-}
-.mainmin .mainminf a{
-  width: 49px;
-  line-height: 40px;
-  display: block;
-  text-decoration: none;
-  background-color: #fdd900;
-  color:#000;
-  text-align: center
-}
-.main>span{
-  position: absolute;
-  font-size: 50px;
-  color: red;
-  top: 150px;
-  left: 50%;
-  margin-left: -170px;
-/*  display:none;
-*/}

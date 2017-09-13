@@ -1,0 +1,88 @@
+.orderdown{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.mainminl{
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.mainminl ul{
+  list-style: none
+}
+.mainminl h3{
+  font-weight: bold;
+  line-height: 30px
+}
+.mainminl ul li{
+  width: 1100px;
+}
+.mainminl ul li:nth-child(1) form textarea{
+  height: 130px;
+  border: 1px solid #8b8b8b;
+  border-top: 2px solid #000;
+  width: 1090px;
+}
+.mainminl ul li:nth-child(2){
+  line-height: 30px;
+  margin-top: 50px;
+  border-bottom: 2px solid #000
+}
+.mainminl ul li:nth-child(2) span{
+  margin-right: 165px
+}
+.mainminl ul li:nth-child(2) .last{
+  margin-right: 0px;
+
+}
+.mainminl .lastt{
+   line-height: 40px
+}
+.mainminl .lastt span:nth-child(1){
+  margin-right: 80px
+}
+.mainminl .lastt span:nth-child(2){
+  margin-right: 80px
+}
+.mainminl .lastt span:nth-child(3){
+  margin-right: 80px
+}
+.mainminl .lastt span:nth-child(4){
+  margin-right: 70px
+}
+.mainminl .lastt span:nth-child(5){
+  margin-right: 70px
+}
+.mainminl .lastt span:nth-child(6){
+  margin-right: 70px
+}
+.mainminl .lastt span:nth-child(7){
+  margin-right: 70px
+}
+.mainminl .lastt span:nth-child(8){
+  margin-right: 80px
+}
+.mainminl .lastt span:nth-child(9){
+  margin-right: 70px
+}
+.mainminl .lastt span:nth-child(10){
+  margin-right: 80px
+}
+.mainminl .lastt span:nth-child(11){
+  margin-right: 0px;
+  font-size: 30px;
+  color: red
+}
+.mainminl>a{
+  width: 220px;
+  line-height: 60px;
+  background-color: #fdd900;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+  color:#000;
+  font-size: 24px;
+  margin-top: 48px;
+  margin-bottom: 110px
+}

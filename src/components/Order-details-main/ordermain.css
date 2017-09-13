@@ -1,0 +1,154 @@
+.ordermain{
+  width: 1200px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.mainmin{
+  width: 1100px;
+  margin:0 auto;
+  background-color: #fff;
+}
+.mainmino h3{
+  float:left;
+  display: block;
+  line-height: 37px;
+  font-weight: bold;
+}
+.mainmino a{
+  display: block;
+  float:right;
+  text-decoration: none;
+  color:#000;
+  line-height: 37px;
+}
+.mainmin ul{
+  list-style: none;
+  width: 1100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top:2px solid #000;
+}
+.mainmin ul li{
+  /*line-height: 30px*/
+}
+.mainmin .mainmint img{
+  height: 66px;
+}
+.mainmin .mainmint li img:nth-child(2){
+  margin-left: 20px;
+
+}
+.mainmin .mainmint li:nth-child(2){
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 66px
+}
+.mainmin .mainmins li:nth-child(2){
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 66px
+}
+.mainmin .mainmint li:nth-child(3){
+  margin-left: 100px;
+  font-size: 12px;
+  line-height: 66px
+}
+.mainmin .mainmins li:nth-child(3){
+  margin-left: 165px;
+  font-size: 12px;
+  line-height: 66px
+}
+.mainmin .mainmint li:nth-child(4){
+  margin-left: 30px;
+  font-size: 12px;
+  line-height: 66px
+}
+.mainmin .mainmins li:nth-child(4){
+  margin-left: 30px;
+  font-size: 12px;
+  line-height: 66px
+}
+.mainmin .mainmint li:nth-child(5){
+  margin-left: 110px;
+  line-height: 66px
+}
+.mainmin .mainmins li:nth-child(5){
+  margin-left: 110px;
+  line-height: 66px
+}
+.mainmin .mainmint li:nth-child(6){
+  margin-left: 60px;
+  line-height: 66px
+}
+.mainmin .mainmins li:nth-child(6){
+  margin-left: 60px;
+  line-height: 66px
+}
+.mainmin ul li{
+  float:left;
+}
+.mainmin .mainminf{
+  padding-top: 20px;
+  margin-bottom: 20px
+
+}
+.mainmin .mainminf li{
+  float:left;
+  position: relative;
+}
+.mainmin .mainminf li h3{
+  float:left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  line-height: 40px
+}
+.mainmin .mainminf .three{
+  width: 133px;
+  height: 39px;
+  position: absolute;
+  left:91px;
+  border: 3px solid #fdd900;
+/*  display: none*/
+}
+.mainmin .mainminf li span{
+  float:left;
+  margin-right: 45px;
+  width: 134px;
+  line-height: 40px;
+  text-align: center;
+  border:2px solid #a8a2a2;
+}
+.mainmin .mainminf li:nth-child(3) span{
+
+ margin-right: 10px;
+ width: 100px;
+}
+.mainmin .mainminf input{
+  width: 168px;
+  line-height: 40px;
+  margin-right: 5px;
+  color: #aca7a7;
+  text-align: center
+}
+.mainmin .mainminf a{
+  width: 49px;
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+  background-color: #fdd900;
+  color:#000;
+  text-align: center
+}
+.main>span{
+  position: absolute;
+  font-size: 50px;
+  color: red;
+  top: 150px;
+  left: 50%;
+  margin-left: -170px;
+/*  display:none;
+*/}
+.twoo{
+  padding-left: 0px;
+}

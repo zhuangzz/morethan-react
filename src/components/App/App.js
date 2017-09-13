@@ -5,6 +5,8 @@ import Main from "../Main/Main"
 import Loginform from "../Loginform/Loginform"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
+import {HashRouter as Router} from "react-router-dom"
+
 
 
 class App extends Component{
@@ -41,6 +43,7 @@ class App extends Component{
     const { login , currentName} =this.state
 
     return(
+      <Router>
       <div className="app">
         <Header
           showLoginName ={currentName}
@@ -51,7 +54,10 @@ class App extends Component{
 
           { login && <Loginform hideLogin={this.hideLoginForm} login={this.login} />}
         <Footer />
-      </div>)
+
+
+      </div>
+    </Router>)
   }
 }
 

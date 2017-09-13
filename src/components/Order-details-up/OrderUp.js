@@ -11,8 +11,8 @@ class OrderUp extends Component{
 							<span className="car">填写订单</span>
 						</div>
 						<ul>
-							<li>购物车</li>
-							<li>填写订单</li>
+							<li className="shopcar222">购物车</li>
+							<li >填写订单</li>
 							<li>付款，购买成功</li>
 						</ul>
 						<img src={require("../images/shopcar-bg_07.jpg")} alt="" />

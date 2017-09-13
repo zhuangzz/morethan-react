@@ -7,7 +7,7 @@
 
 
 
-.main li:last-child .boleft{
+.shopcar .main li:last-child .boleft{
 	float: left;
 	margin-top: 53px;
 	background-color: #2b2e33;
@@ -65,19 +65,20 @@
 .main li:last-child .boleft  div span{
 		margin-left: 31px;
 }
-.main li:last-child button{
-	margin-top: 50px;
+.main li:last-child .goto-result{
+	display: block;
+	margin-top: 53px;
 	float:right;
 	line-height: 60px;
 	width: 220px;
 	background-color: #fdd900;
 	border: none;
 	font-size: 24px;
-	/*box-sizing: border-box;*/
-	/*color: #7a6c2b;*/
+	text-align: center;
 	outline:none;
+	/*margin-right: 100px;*/
 }
-.main li:last-child button:hover{
+.main li:last-child .goto-result:hover{
 	background-color: #2b2e33;
 	color:#fdd803;
 	/*color:#fff;*/

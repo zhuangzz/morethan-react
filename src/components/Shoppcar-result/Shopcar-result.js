@@ -1,6 +1,7 @@
 import React,{Component} from "react"
 import "./shopcar-result.css"
 import imagess from "../images/shopcar-trash_19.jpg"
+import {Link} from "react-router-dom"
 
 class Shopcarresult extends Component{
   render(){
@@ -19,7 +20,7 @@ class Shopcarresult extends Component{
   					  <p>[不含运费]</p>
   				  </div>
   				</div>
-  				<button>去结算</button>
+  				<Link className="goto-result" to="/orderdetails">去结算</Link>
   				<div className="paopao clearfix">
   					<a href="http">确定删除</a>
   					<a href="http">不删除</a>

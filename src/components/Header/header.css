@@ -48,10 +48,13 @@ font-size:0;
   margin-left: 10%;
 }
 .search{
-
+  margin-left: 150px;
 }
 .logo{
-
+  margin-left: 200px;
+}
+.header-login{
+  margin-left: -100px;
 }
 .header-con>span{
   font-size: 16px;

@@ -1,6 +1,7 @@
 import React ,{Component} from "react"
 import Addcardown from "../Addcardown/Addcardown"
 import "./addcar.css"
+import { Link } from "react-router-dom"
 
 class Addcar extends Component {
   render(){
@@ -24,8 +25,8 @@ class Addcar extends Component {
       					<p>尺码：XL</p>
       					<p>数量：x1</p>
       				</div>
-      				<a href="http" className="gocount">去购物车结算</a>
-      				<a href="http" className="goback">返回</a>
+      				<Link to="/shopcar" className="gocount">去购物车结算</Link>
+      				<Link to="/" className="goback">返回</Link>
 
       			</div>
       		</div>

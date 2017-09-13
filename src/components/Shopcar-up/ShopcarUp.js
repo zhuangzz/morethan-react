@@ -13,8 +13,8 @@ class ShopcarUp extends Component {
     				</div>
     				<ul>
     					<li>购物车</li>
-    					<li>填写订单</li>
-    					<li>付款，购买成功</li>
+    					<li className="write-order444">填写订单</li>
+    					<li className="pay-success444">付款，购买成功</li>
     				</ul>
     			</div>
     			<img src={require("../images/shopcar-bg_07.jpg")} alt="" />

@@ -1,0 +1,139 @@
+.finsh .up-con{
+  width: 1200px;
+  height: 144px;
+  background-color: #fdd900;
+  overflow: hidden;
+  margin: 0 auto
+}
+
+.finsh .up-con .left{
+  display: block;
+  float: left;
+  width: 5px;
+  /*background-image: url("../images/shopcar-left_03.jpg");
+  background-repeat: repeat-y;*/
+  height: 60px;
+  margin-top: 24px;
+  margin-left: 50px;
+  margin-bottom: 17px;
+  border-left:5px solid #000;
+}
+.finsh .up-con>.up-u{
+  float: left;
+  overflow:hidden;
+  background-color: #fdd900;
+}
+.finsh .up-con>.up-u .car{
+  float:left;
+  font-size: 30px;
+  line-height: 60px;
+  margin-top: 24px;
+  margin-left: 20px;
+  width: 720px;
+}
+.finsh .up-con>.up-u .car>span{
+  font-size: 22px;
+}
+.finsh .up-con>.up-u .car>span>span{
+  color: red;
+}
+.finsh .up-con>ul{
+  float: right;
+  list-style: none;
+}
+.finsh .up-con>ul>li{
+  margin-top: 38px;
+  float: left;
+  line-height: 36px;
+  border-bottom: 2px solid #000;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.finsh>.up-con ul .shopcar222{
+    border-bottom: 2px solid #000;
+}
+.finsh>.up-con ul .write222{
+    border-bottom: 2px solid #000;
+}
+.finsh .up-con>ul>li:nth-child(1){
+  width: 55px;
+
+}
+.finsh .up-con>ul>li:nth-child(2){
+  width: 72px;
+}
+.finsh .up-con>ul>li:nth-child(3){
+  width: 126px;
+  margin-right: 50px;
+  border-bottom: 5px solid #000;
+  font-weight: bold;
+}
+
+
+.finsh .main-con{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.finsh .main{
+width: 1100px;
+margin: 0 auto;
+padding-bottom: 170px
+}
+.finsh .main img{
+  float: left;
+  margin-right: 30px;
+}
+.finsh .main>.success1{
+  float:left;
+  font-size: 30px;
+  line-height: 70px;
+  width: 790px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  color:#000;
+  position:relative;
+  top:0px;
+  left:0px;
+  margin-left: 0px;
+}
+.finsh .main .maino1{
+  width: 255px;
+  float: left;
+  margin-top: 20px;
+}
+.finsh .main .maino1>span{
+  font-weight: bold;
+}
+.finsh .main .goto1{
+width: 220px;
+line-height: 60px;
+display: block;
+float: left;
+font-size: 30px;
+background-color: #fdd900;
+text-align: center;
+margin-left: 83px;
+color:#000;
+position:relative;
+top:0px;
+left:0px;
+
+}
+.finsh .main .check-order1{
+width: 220px;
+line-height: 60px;
+display: block;
+float: left;
+font-size: 30px;
+background-color: #fdd900;
+text-align: center;
+margin-left: 10px;
+color:#000;
+position:relative;
+top:0px;
+left:0px;
+
+}

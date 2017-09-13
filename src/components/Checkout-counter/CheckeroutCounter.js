@@ -1,21 +1,11 @@
 import React ,{Component} from "react"
 import "./checkoutcounter.css"
+import {Link} from "react-router-dom"
 
 class CheckoutCounter extends Component{
   render(){
     return(
       <div className="sheckoutcounter">
-        <div className="up">
-    		<div className="header clearfix">
-        <div className="headero">
-          <div className="nav"></div>
-          <div className="navon"></div>
-          <div className="navright clearfix">
-            <a href="#"><img src={require("../images/serne.jpg" )} alt="" /></a><a href="#"><img src={require("../images/bgne1_05.jpg" )} alt="" /></a>
-            <span><a href="#">登录</a><a href="#">注册/</a></span>
-          </div>
-          </div>
-        </div>
     			<div className="up-con">
     				<div className="up-u clearfix">
     					<span className="left"></span>
@@ -29,7 +19,7 @@ class CheckoutCounter extends Component{
     				<img src={require("../images/shopcar-bg_07.jpg")} alt="" />
     			</div>
 
-    		</div>
+
         <div className="main-con">
     		<div className="main clearfix">
     			<ul className="maino clearfix">
@@ -37,6 +27,9 @@ class CheckoutCounter extends Component{
     				<li>请您在提交订单后<span>24小时</span>内完成支付，否则订单会自动取消</li>
     				<li>应付金额：<span>￥168.00</span></li>
     			</ul>
+
+
+
     			<ul className="maint clearfix">
     				<li>订单号：12345678912345</li>
     				<li>迪力木拉提   186 **** 0734</li>
@@ -53,7 +46,7 @@ class CheckoutCounter extends Component{
     				<img className="mainfo" src={require("../images/zhifu_03.jpg")} alt="" />
     				</span>
     			</div>
-    			<a href="#" className="fukuan">付款</a>
+    			<Link to="/finish" className="fukuan">付款</Link>
     		</div>
     		</div>
       </div>

@@ -40,15 +40,21 @@
 	margin-top: 38px;
 	float: left;
 	line-height: 36px;
-	border-bottom: 2px solid #000;
 	margin-right: 20px;
 	font-size: 18px;
+}
+.shopcar .shopcarup .up-con>ul>.write-order444{
+	border-bottom: 2px solid #000;
+}
+.shopcar .shopcarup .up-con>ul>.pay-success444{
+	border-bottom: 2px solid #000;
 }
 .up-con>ul>li:nth-child(1){
 	width: 55px;
 	border-bottom: 5px solid #000;
 	font-weight: bold;
 }
+
 .up-con>ul>li:nth-child(2){
 	width: 72px;
 }
@@ -56,4 +62,5 @@
 	width: 126px;
 	margin-right: 50px;
 }
+
 /*up完,up高144*/

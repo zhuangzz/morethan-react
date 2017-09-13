@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "http://zhuangzz.github.io/morethan-react",
   "dependencies": {
+    "axios": "^0.16.2",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
     "react-slick": "^0.15.4",
     "slick-carousel": "^1.7.1"

@@ -1,6 +1,8 @@
 import React ,{Component} from "react"
 import "./orderdetails.css"
 import OrderUp from "../Order-details-up/OrderUp"
+import OrderMain from "../Order-details-main/OrderMain"
+import OrderDown from "../Order-details-down/OrderDown"
 
 class OrderDetails extends Component{
   state={
@@ -27,15 +29,15 @@ class OrderDetails extends Component{
     const listid=this.state.address.map((item,i)=>(
 
 
-    <ul key={i}>
+    <ul key={i} className="goods-id">
       <li>{item.name}</li>
       <li>{item.id}
-       <a href="#">删除</a>
-       <a href="#">编辑</a>
-       <a href="#">设为默认</a>
+       <a href="http">删除</a>
+       <a href="http">编辑</a>
+       <a href="http">设为默认</a>
        <div className="qipao clearfix">
-        <a href="#">确定删除</a>
-        <a href="#">不删除</a>
+        <a href="http">确定删除</a>
+        <a href="http">不删除</a>
        </div>
       </li>
       <li>{item.num}</li>
@@ -50,11 +52,13 @@ class OrderDetails extends Component{
         <div className="main clearfix">
           <div className="maino">
               <h3>收货地址</h3>
-              <h4><a href="#">+</a>新增地址</h4>
+              <h4><a href="http">+</a>新增地址</h4>
           </div>
           {listid}
-          <a className="more-more" href="#">显示更多</a>
-        </div>
+          <a className="more-more" href="http">显示更多</a>
+         </div>
+         <OrderMain />
+         <OrderDown />
 
 
       </div>
